@@ -1,0 +1,39 @@
+Steps for executing program 3:
+
+Prerequisites:
+1.	Should have AWS account
+2.	Should have secret access ID and secret access key for the account.
+3.	3. Should configure AWS using the AWS CLI so that the .aws folder is created in the home directory with credentials and configuration files. This file is required for the program to run.
+4.	Boto3 package is required. To check if Boto3 is installed use the following command:
+pip show boto3
+
+5.	If Boto3 not available, use following command to run install the package:
+pip install boto3
+
+Steps to execute program:
+Program3 contains 3 python files of which the Main.py file should be executed. 3 arguments should be passed 
+1st argument = backup / restore
+2nd argument = bucket name or bucket_name/Directory_name
+3rd argument = local directory path
+
+
+1.	Run the following command with arguments to backup local files to cloud:
+
+python Main.py backup bucketName/directory localDirectory
+
+E.g: 
+python Main.py backup css436assignment/backupfiles/ Desktop/Myfiles
+
+2.	Run the following command with arguments to restore files in cloud to local:
+
+python Main.py restore bucketName/directory localDirectory
+
+E.g.:
+python Main.py restore css436assignment/backupfiles/ Desktop/MyFolder
+
+
+
+
+
+
+ 
