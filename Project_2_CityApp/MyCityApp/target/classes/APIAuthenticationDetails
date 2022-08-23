@@ -1,0 +1,19 @@
+{
+  "API_DATA": {
+    "AIR_QUALITY_API_DETAILS": [
+      {
+        "URI": "https://api.api-ninjas.com/v1/airquality?city=",
+        "APIKey": "X-Api-Key",
+        "APIToken": "2QOHQDSu1Z3ed9xVv21+Xg==XqCZZNJxSzO89WaU"
+      }
+    ],
+    "WEATHER_API_DETAILS": [
+      {
+        "URI": "http://api.openweathermap.org/data/2.5/weather?q=",
+        "APIKey": "",
+        "APIToken": "04ecc8e5f0265bbccdbf737bbe0e584f"
+      }
+    ]
+  }
+}
+
